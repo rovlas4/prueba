@@ -15,4 +15,4 @@ clean:
 	$(RM) *.class
 
 run: classes
-	java ClasePrincipal
+	java Main
