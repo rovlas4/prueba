@@ -7,12 +7,8 @@ JC = javac
 CLASSES = \
 	Main.java
 
-default: classes
-
-classes: $(CLASSES:.java=.class)
-
 clean:
-	$(RM) *.class
+	rm -f *.class
 
 run: classes
 	java Main
